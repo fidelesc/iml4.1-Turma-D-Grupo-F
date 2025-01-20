@@ -1,0 +1,14 @@
+{
+    "name": "Webscraper Project",
+    "dockerFile": "Dockerfile",
+    "context": "..",
+    "postCreateCommand": "poetry install",
+    "settings": {
+      "python.defaultInterpreterPath": "/usr/bin/python"
+    },
+    "extensions": [
+      "ms-python.python",
+      "ms-azuretools.vscode-docker"
+    ]
+  }
+  
